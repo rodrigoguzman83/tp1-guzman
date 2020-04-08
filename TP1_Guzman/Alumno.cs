@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TP1_Guzman
 {
-    public class Profesor:Persona
+    public class Alumno:Persona
     {
-        public string Matricula { get; set;}
+        public int Legajo { get; set; }
     }
 }

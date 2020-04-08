@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace TP1_Guzman
 {
-    public class Persona
+    public class Carrera
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Apellido { get; set;  }
-        public int Dni { get; set; }
-        public int Celular { get; set; }
+        public string Nombre { get; set; }
+        public List <Departamento> Departamento { get; set; }
     }
 }

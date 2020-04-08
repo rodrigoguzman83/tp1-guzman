@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TP1_Guzman
 {
-    public class Class1
+    public class Departamento
     {
+       public int Id { get; set; }
+       public string Nombre { get; set; }
     }
 }
