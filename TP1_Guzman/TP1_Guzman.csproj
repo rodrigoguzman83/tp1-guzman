@@ -45,13 +45,16 @@
     <Compile Include="Aula.cs" />
     <Compile Include="Ayudante.cs" />
     <Compile Include="Carrera.cs" />
-    <Compile Include="Departamento.cs" />
-    <Compile Include="Inscripciones.cs" />
+    <Compile Include="Comision.cs" />
+    <Compile Include="InscripcionesCarrera.cs" />
+    <Compile Include="InscripcionExamen.cs" />
+    <Compile Include="InscripcionMateria.cs" />
     <Compile Include="Materia.cs" />
     <Compile Include="Notas.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoExamen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

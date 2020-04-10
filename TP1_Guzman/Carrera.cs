@@ -10,6 +10,9 @@ namespace TP1_Guzman
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public List <Departamento> Departamento { get; set; }
+        public int CantMaterias { get; set; }
+        public int Duracion { get; set; }
+        public bool TituloIntermedio { get; set; }
+        public string NombreTituloIntermedio { get; set; }
     }
 }

@@ -10,12 +10,6 @@ namespace TP1_Guzman
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public List<Carrera> Carrera { get; set; }
-        public List<Profesor> Profesor { get; set; }
-        public List<Ayudante> Ayudante { get; set; }
-        public List<Aula> Aula { get; set; }
-        public string Dia { get; set; }
-        public int HorarioDesde { get; set; }
-        public int HorarioHasta { get; set; }
+        public List<Carrera> Carreras { get; set; }
     }
 }

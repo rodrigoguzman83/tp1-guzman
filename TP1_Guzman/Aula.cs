@@ -9,9 +9,9 @@ namespace TP1_Guzman
     public class Aula
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public int Numero { get; set; }
         public string Edificio { get; set; }
-        public int Piso { get; set; }
-        public int AsientosDisponibles { get; set; }
+        public string Piso { get; set; }
+        public int Capacidad { get; set; }
     }
 }

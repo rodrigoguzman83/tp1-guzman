@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TP1_Guzman
 {
-    public class Inscripciones
+    public class InscripcionesCarrera
     {
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
-        public List<Materia> Materia { get; set; }
-        public List<Alumno> Alumno { get; set; }
+        public List<Carrera> Carreras { get; set; }
+        public List<Alumno> Alumnos { get; set; }
     }
 }

@@ -13,5 +13,7 @@ namespace TP1_Guzman
         public string Apellido { get; set;  }
         public int Dni { get; set; }
         public int Celular { get; set; }
+        public DateTime FechaNac { get; set; }
+        public string Mail { get; set; }
     }
 }
